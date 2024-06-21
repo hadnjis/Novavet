@@ -1,0 +1,22 @@
+/* Para pantallas pequeñas */
+@media (max-width: 600px) {
+    .galeria {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-desplazable {
+        width: 100%;
+    }
+}
+
+/* Para pantallas medianas */
+@media (min-width: 601px) and (max-width: 1200px) {
+    .galeria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .menu-desplazable {
+        width: 80%;
+    }
+}
